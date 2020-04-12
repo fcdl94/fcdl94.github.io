@@ -32,7 +32,17 @@ permalink: /about/
       <p class="margin-top"><a href="{{ paper.link }}"><b>{{ paper.title }}</b></a>, <br>
       {{ paper.authors }},<br>
       {{ paper.conference }}</p>
-      <p class="margin-bottom"><a href="{{ paper.url }}">bib</a>
+      <p class="margin-bottom">
+        <a href="{{ paper.url }}">Bib file</a> /
+        {% if paper.arxiv %}
+        <a href="{{ paper.arxiv }}">Arxiv</a> /
+        {% endif %}
+        {% if paper.code %}
+        <a href="{{ paper.code }}">Code</a> /
+        {% endif %}
+        {% if paper.code %}
+        <a href="{{ paper.website }}">Website</a> /
+        {% endif %}
       </p>
     </article>
   {% endfor %}
