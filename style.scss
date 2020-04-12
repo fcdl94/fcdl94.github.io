@@ -68,6 +68,21 @@ p {
   margin: 15px 0;
 }
 
+.no-margin p {
+  padding: 0 0;
+  margin: 1px 0;
+}
+
+.margin-bottom p {
+  padding: 0 0;
+  margin: 0px 0 15px;
+}
+
+.margin-top p {
+  padding: 0 0;
+  margin: 15px 0 0px;
+}
+
 .button p {
   background-color: $lightGray;
   padding: 0 5px;
