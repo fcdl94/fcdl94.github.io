@@ -15,7 +15,7 @@ permalink: /about/
   </p>
 
 
-  <p><a href="/resources/cv.pdf">CV</a> /
+  <p><a href="https://github.com/fcdl94/fcdl94.github.io/raw/master/resources/cv.pdf">CV</a> /
     <a href="https://scholar.google.it/citations?hl=it&user=-fEOFbMAAAAJ">Google Scholar</a> /
     <a href="mailto:fabio.cermelli@polito.it">Email</a>
   </p>
@@ -28,7 +28,7 @@ permalink: /about/
   {% for paper in site.papers %}
     <article class="paper">
 
-      <p><a href="{{ post.url }}"><b>{{ paper.title }}</b></a>, <br>
+      <p><a href="{{ post.link }}"><b>{{ paper.title }}</b></a>, <br>
       {{ paper.authors }},<br>
       {{ paper.conference }}</p>
     </article>
