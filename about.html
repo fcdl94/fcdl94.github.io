@@ -11,9 +11,7 @@ permalink: /about/
   I'm a never-ending learner, especially interested in deep learning and computer vision.
   In my research, my main goal is to how to learn a representation able to evolve over time requiring as less supervision as possible.
 
-  I’m also interested in various inference methods, neural net architectures including attention and memory, and in everything that
-  can be described as “machine reasoning”.
-  Feel free to reach out if you want to chat about or work on any of these topics!</p>
+  </p>
 
 
   <p><a href="/resources/cv.pdf">CV</a> /
@@ -29,8 +27,7 @@ permalink: /about/
   {% for paper in site.papers %}
     <article class="paper">
 
-      <p><a href="{{ post.url }}">{{ paper.title }}</a>, {{paper.authors}}</p>
-
+      <p><a href="{{ post.url }}">{{ paper.title }}</a>, {{ paper.authors }}, published in {{ paper.conference }}</p>
 
     </article>
   {% endfor %}
