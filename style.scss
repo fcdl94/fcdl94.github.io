@@ -68,6 +68,11 @@ p {
   margin: 15px 0;
 }
 
+.button p {
+  background-color: $lightGray;
+  padding: 0 5px;
+}
+
 a {
   color: $blue;
   text-decoration: none;
