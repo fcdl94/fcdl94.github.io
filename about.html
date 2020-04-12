@@ -1,0 +1,37 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<div class="bio">
+  <p class="about-img"><img src="{{ site.avatar }}" alt="Fabio Cermelli" /></p>
+
+  <p>Hi, I’m Fabio.
+  I'm a never-ending learner, especially interested in deep learning and computer vision.
+  In my research, my main goal is to how to learn a representation able to evolve over time requiring as less supervision as possible.
+
+  I’m also interested in various inference methods, neural net architectures including attention and memory, and in everything that
+  can be described as “machine reasoning”.
+  Feel free to reach out if you want to chat about or work on any of these topics!</p>
+
+
+  <p><a href="/resources/cv.pdf">CV</a> /
+    <a href="https://scholar.google.it/citations?hl=it&user=-fEOFbMAAAAJ">Google Scholar</a> /
+    <a href="mailto:fabio.cermelli@polito.it">Email</a>
+  </p>
+
+</div>
+
+
+<div class="papers">
+  <h2>Publications</h2>
+  {% for paper in site.papers %}
+    <article class="paper">
+
+      <p><a href="{{ post.url }}">{{ paper.title }}</a>, {{paper.authors}}</p>
+
+
+    </article>
+  {% endfor %}
+</div>
