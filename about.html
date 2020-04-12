@@ -7,11 +7,19 @@ permalink: /about/
 <div class="bio">
   <p class="about-img"><img src="{{ site.avatar }}" alt="Fabio Cermelli" /></p>
 
-  <p>Hi, I’m Fabio.
+  <p>Hi, I’m Fabio and I'm a never-ending learner, especially interested in
+    deep learning and computer vision. <br>
 
-  I'm a never-ending learner, especially interested in deep learning and computer vision.
-  In my research, my main goal is to how to learn a representation able to evolve over time requiring as less supervision as possible.
+    I'm a first year PhD student at <a href="www.polito.it">Politecnico di Torino
+    (Italy)</a>, in collaboration with <a href="www.iit.it">Italian Institute of
+    Technology</a>, supervised by prof. Barbara Caputo and
+    <a href="https://mancinimassimiliano.github.io/">Massimiliano Mancini</a>.
 
+    The main goal of my research is to enable neural networks to increase their
+    knowledge over time. In addition, I believe that the future of deep learning
+    is toward reducing human supervision. For this reason, I'm planning
+    to focus on unsupervised, semi-supervised and representation learning
+    for the next works.
   </p>
 
 
@@ -29,10 +37,9 @@ permalink: /about/
   {% for paper in papers %}
     <article class="paper">
 
-      <p class="margin-top"><a href="{{ paper.link }}"><b>{{ paper.title }}</b></a>, <br>
+      <p><a href="{{ paper.link }}"><b>{{ paper.title }}</b></a>, <br>
       {{ paper.authors }},<br>
-      {{ paper.conference }}</p>
-      <p class="margin-bottom">
+      {{ paper.conference }}<br>
         <a href="{{ paper.url }}">Bib file</a>
         {% if paper.arxiv %}
         / <a href="{{ paper.arxiv }}">Arxiv</a>
