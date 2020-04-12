@@ -6,7 +6,7 @@ link: https://arxiv.org/abs/2002.00718
 code: https://github.com/fcdl94/MiB
 conference: CVPR 2020, June, Seattle (USA).
 website: /MiB
-date: 2020-6-1
+date: 2020-06-01
 tag: cermelli2020modeling
 ---
 @inProceedings{cermelli2020modeling,
