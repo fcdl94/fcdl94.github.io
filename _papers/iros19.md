@@ -1,5 +1,5 @@
 ---
-title: The RGB-D Triathlon: Towards Agile Visual Toolboxes for Robots
+title: "The RGB-D Triathlon: Towards Agile Visual Toolboxes for Robots"
 authors: Fabio Cermelli, Massimiliano Mancini, Elisa Ricci, Barbara Caputo
 arxiv: https://arxiv.org/abs/1904.00912
 link: https://arxiv.org/abs/1904.00912
