@@ -8,6 +8,7 @@ permalink: /about/
   <p class="about-img"><img src="{{ site.avatar }}" alt="Fabio Cermelli" /></p>
 
   <p>Hi, I’m Fabio.
+
   I'm a never-ending learner, especially interested in deep learning and computer vision.
   In my research, my main goal is to how to learn a representation able to evolve over time requiring as less supervision as possible.
 
@@ -27,8 +28,9 @@ permalink: /about/
   {% for paper in site.papers %}
     <article class="paper">
 
-      <p><a href="{{ post.url }}">{{ paper.title }}</a>, {{ paper.authors }}, published in {{ paper.conference }}</p>
-
+      <p><a href="{{ post.url }}"><b>{{ paper.title }}</b></a>, <br>
+      {{ paper.authors }},<br>
+      {{ paper.conference }}</p>
     </article>
   {% endfor %}
 </div>

@@ -235,7 +235,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 1.2em; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -271,6 +271,12 @@ nav {
 .posts > .post {
   padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
+  span {
+    color: $darkGray;
+  }
+  h3 {
+    margin: 0.2em 0 15px;
+  }
 }
 
 .posts > .post:last-child {

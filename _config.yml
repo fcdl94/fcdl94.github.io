@@ -13,7 +13,7 @@ avatar: https://avatars0.githubusercontent.com/u/10979083?s=460&u=56788fdbf914bf
 
 collections:
   papers:
-    
+    output: true
 
 #
 # Flags below are optional
