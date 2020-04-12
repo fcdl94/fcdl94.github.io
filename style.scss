@@ -68,22 +68,22 @@ p {
   margin: 15px 0;
 }
 
-.no-margin p {
+p.no-margin {
   padding: 0 0;
   margin: 1px 0;
 }
 
-.margin-bottom p {
+p.margin-bottom {
   padding: 0 0;
   margin: 0px 0 15px;
 }
 
-.margin-top p {
+p.margin-top {
   padding: 0 0;
   margin: 15px 0 0px;
 }
 
-.button p {
+p.button {
   background-color: $lightGray;
   padding: 0 5px;
 }

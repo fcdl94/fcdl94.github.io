@@ -25,11 +25,11 @@ permalink: /about/
 
 <div class="papers">
   <h2>Publications</h2>
-  {% assign papers = site.papers%}
+  {% assign papers = site.papers %}
   {% for paper in papers %}
     <article class="paper">
 
-      <p class="no-margin"><a href="{{ paper.link }}"><b>{{ paper.title }}</b></a>, <br>
+      <p class="margin-top"><a href="{{ paper.link }}"><b>{{ paper.title }}</b></a>, <br>
       {{ paper.authors }},<br>
       {{ paper.conference }}</p>
       <p class="margin-bottom"><a href="{{ paper.url }}">bib</a>

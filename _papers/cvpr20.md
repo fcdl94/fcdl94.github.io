@@ -9,10 +9,11 @@ website: /MiB
 date: 2020-06-01
 tag: cermelli2020modeling
 ---
-@inProceedings{cermelli2020modeling,
- author = {Cermelli, Fabio and Mancini, Massimiliano and Rota Bul\`o, Samuel and Ricci, Elisa and Caputo, Barbara},
- title  = {Modeling the Background for Incremental Learning in Semantic Segmentation},
- booktitle = {Computer Vision and Pattern Recognition (CVPR)},
- year      = {2020},
- month     = {June}
+@inProceedings{cermelli2020modeling,  
+ author = {Cermelli, Fabio and Mancini, Massimiliano and Rota Bul\`o, Samuel and Ricci, Elisa and Caputo,
+    Barbara},  
+ title  = {Modeling the Background for Incremental Learning in Semantic Segmentation},  
+ booktitle = {Computer Vision and Pattern Recognition (CVPR)},  
+ year      = {2020},  
+ month     = {June}  
 }
