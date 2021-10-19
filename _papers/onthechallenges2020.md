@@ -9,7 +9,6 @@ tag: fontanel2020on
 @inProceedings{fontanel2020on,  
  author = {Cermelli, Fabio and Mancini, Massimiliano and Caputo, Barbara},  
  title  = {On the Challenges of Open World Recognition under Shifting Visual Domainsn},  
- booktitle = {Computer Vision and Pattern Recognition (CVPR)},  
+ booktitle = {IEEE Robotics and Automation Letters},  
  year      = {2020},  
- month     = {June}  
 }
